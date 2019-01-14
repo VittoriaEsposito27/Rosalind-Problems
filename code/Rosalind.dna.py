@@ -19,13 +19,8 @@ def dna_count(a):
 if __name__ == "__main__":
     f = open('rosalind_dna.txt').readlines()
     lst = []
-    s = []
-    t = []
     for line in f:
         line = line.replace('\n', '')
-        if line.startswith('>'):
-            pass
-        else:
-            lst.append(line)
+        lst.append(line)
     a = ''.join(lst)
     dna_count(a)
