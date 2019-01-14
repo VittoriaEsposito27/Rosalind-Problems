@@ -12,6 +12,6 @@ def perm(n):
 
 
 if __name__ == "__main__":
-    f = open('rosalind_.txt').read()
+    f = open('rosalind_perm.txt').read()
     n = int(f)
     perm(n)
